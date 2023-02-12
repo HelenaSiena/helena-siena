@@ -1,0 +1,47 @@
+
+@media (max-width: 767.98px) {
+    .titles-purple,
+    .titles-purple h3{
+        font-size: 1.3rem;
+    }
+    .text-body-white{
+        font-size: 1rem;
+    }
+    .line-decoration-vertical { 
+        display: none;
+    }
+    .img-certify {
+        display: block;
+        margin: 10px auto;
+    }
+    #skills img { 
+        display: block;
+        margin: 0 auto;
+    }
+    #skiils-desktop { 
+        display: none;
+    }
+    .certify-zoom:hover img{
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    .btn { 
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 1024px){
+    .line-decoration-vertical { 
+        display: none;
+    }
+    #skiils-desktop { 
+        display: none;
+    }
+}
+@media (min-width: 1025px){
+    .img-certify{
+        width: 300px;
+    }
+}
+

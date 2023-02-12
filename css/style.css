@@ -1,0 +1,141 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+/*Estilização dos TEXTOS*/
+.titles-white { 
+    font-family: 'Satoshi', sans-serif;
+    color: #fff;
+    letter-spacing: 0.02em;
+}
+.titles-purple{
+    font-family: 'Satoshi', sans-serif;
+    color: #2B0955;
+    letter-spacing: 0.02em;
+}
+.text-body-white{ 
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    letter-spacing: 0.02em;
+    font-size: 1.3rem;
+}
+.text-colored-yellow {
+    font-family: 'Quicksand', sans-serif;
+    color: #F3C371;
+}
+.text-colored-purple { 
+    color: #3C2A56;
+}
+.text-body-normal {
+    font-family: 'Quicksand', sans-serif;
+    color: #363636;
+    letter-spacing: 0.055em;
+    font-size: 1rem;
+}
+.nav-link,
+.nav-bar li, 
+.nav-bar a, 
+.owl-carousel a,
+.titles-purple a,
+.link-cursos li a,
+#footer-redes-sociais a{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    color: #2B0955;
+}
+.nav-item .nav-link.active{
+    color: #2B0955;
+    background-color: #ccb7e8;
+}
+.nav-link:hover,
+.nav-link.active:hover{
+    color: #2B0955;
+}
+.owl-carousel { 
+    cursor: pointer;
+}
+.owl-carousel a:hover,
+.titles-purple a:hover,
+.link-cursos li a:hover{
+    color: #ccb7e8;
+}
+
+/*Estilização de seções*/
+#menu { 
+    background-color: #f4effa;
+}
+.purple-background { 
+    background-color: #2B0955;
+    background-image: url("/images/background/efect-noise.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image-banner img {
+    filter:drop-shadow(16px 16px 16px rgba(170, 0, 255, 0.332));
+}
+#image-banner img{
+    width: 250px;
+    height: 250px;
+}
+#skills {
+    background-color: #2B0955;
+    background-image: 
+        url("/images/background/efect-noise.svg"),
+        url("/images/background/style-background-2.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+}
+.line-decoration-bottom-center{
+    border-bottom: 2px solid #FBC508;
+}
+.line-decoration-bottom-right{
+    border-bottom: 2px solid #FBC508;
+}
+.line-decoration-footer { 
+    border: 1px solid #EB980A;
+}
+.line-decoration-vertical { 
+    border: 1px solid #928b8b;
+    width: 230px;
+    margin: 140px auto;
+    transform: rotate(-89.99deg);
+    position: absolute;
+}
+
+/*Zoom SKILLS*/
+.skill-hover-zoom img{
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.skill-hover-zoom:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*Imagens Certificados - Zoom*/
+.certify-zoom img { 
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.certify-zoom:hover img{
+    -moz-transform: scale(1.7);
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+}
+
+/*Button certify*/
+.btn a{
+    text-decoration: none;
+    color: #251A1A;
+}
+.btn{
+    background: #EEAA34;
+    border-radius: 8px;
+}
+.btn:hover {
+    background-color: #ebc685;
+}

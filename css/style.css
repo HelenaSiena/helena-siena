@@ -97,8 +97,8 @@
 }
 .line-decoration-vertical { 
     border: 1px solid #928b8b;
-    width: 230px;
-    margin: 140px auto;
+    width: 180px;
+    margin: 110px auto;
     transform: rotate(-89.99deg);
     position: absolute;
 }
